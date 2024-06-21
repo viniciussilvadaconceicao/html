@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Este é um H1</h1>
+    <button>Este é um botão</button>
+    <script type = "text/javascript">
+        const titulo = document.querySelector('h1');
+        titulo.innerHTML = 'Este é um novo H1';
+        const botao = document.querySelector('button');
+        botao.innerHTML = ('click', function(){
+            alert('Você clicou no botão');
+        });
+    </script>
+    
+</body>
+</html>
